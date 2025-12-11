@@ -17,7 +17,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
 
 
 @interface MBProgressHUD ()
-
+ 
 @property (nonatomic, assign) BOOL useAnimation;
 @property (nonatomic, assign, getter=hasFinished) BOOL finished;
 @property (nonatomic, strong) UIView *indicator;
